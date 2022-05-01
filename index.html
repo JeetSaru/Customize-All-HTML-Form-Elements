@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom HTML Form Elements Episode 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="side-content">
+            <h3>Welcome to Coding Design</h3>
+            <p>If you're new here be sure to hit that subscribe button.</p>
+            <img src="images/Subscribe.png" alt="" class="sub_img">
+        </div>
+        <form action="">
+            <h3>Custom Checkbox, Radio, Switch <br> <span class="episode"> Episode 05 </span> </h3>
+            <div class="user">
+                <img class="icon" src="images/user.svg" alt="">
+                <input class="input_field" type="text" spellcheck="false" autofocus placeholder="User Name">
+            </div>
+            <div class="password">
+                <img src="images/lock.svg" alt="" class="icon">
+                <input type="password" class="input_field input_field-password" placeholder="Password">
+                <img src="images/eye.svg" alt="" class="icon icon-eye">
+                <span class="msg"></span>
+            </div>
+
+            <!-- Cutom Checkbox -->
+            <div class="label_checkbox">
+                <input type="checkbox" name="" id="password_visibility">
+                <label for="password_visibility">Show password</label>
+            </div>
+
+            <!-- Custom Radio Button -->
+            <div class="label_radio">
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+
+            <!-- Switch -->
+            <label for="switch">
+                <input type="checkbox" id="switch">
+                <div class="slider"></div>
+            </label>
+
+            <input type="submit" value="SIGN UP">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
