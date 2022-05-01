@@ -22,11 +22,11 @@ password_toggle_btn.addEventListener('click', togglePassword);
 function togglePassword() {
     if (password_field.type === 'password') {
         password_field.type = 'text';
-        icon_eye.src = 'eye-slash.svg';
+        icon_eye.src = 'images/eye-slash.svg';
         password_toggle_btn.innerText = 'Hide password';
     } else {
         password_field.type = 'password';
-        icon_eye.src = 'eye.svg';
+        icon_eye.src = 'images/eye.svg';
         password_toggle_btn.innerText = 'Show password';
     }
 }
