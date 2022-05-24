@@ -1,3 +1,6 @@
+/*Code was by CODING DESIGN 
+you can checkout YouTube Channel : https://www.youtube.com/c/CodingDesign2*/
+
 let msg = $('.msg');
 let password_field = $('.input_field-password');
 let icon_eye = $('.icon-eye');
