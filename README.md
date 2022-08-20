@@ -1,3 +1,3 @@
-##Notice
 
->All the files and the project is free to use but you need to give attribution.
+> You can do whatever you want with the code. However if you love my content, you can **SUBSCRIBED** my YouTube Channel.
+🌎link: www.youtube.com/codingdesign
